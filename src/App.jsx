@@ -9,7 +9,7 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/Trabalhista-Reclamante" element={<TrabalhistaReclamante />} />
+        <Route path="/" element={<TrabalhistaReclamante />} />
         <Route path="/Auxilio-Acidente" element={<AuxilioAcidente />} />
       </Routes>
     </Router>
