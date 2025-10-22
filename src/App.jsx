@@ -9,8 +9,8 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/trabalhista-reclamante" element={<TrabalhistaReclamante />} />
-        <Route path="/auxilio-acidente" element={<AuxilioAcidente />} />
+        <Route path="/Trabalhista-Reclamante" element={<TrabalhistaReclamante />} />
+        <Route path="/Auxilio-Acidente" element={<AuxilioAcidente />} />
       </Routes>
     </Router>
   );
