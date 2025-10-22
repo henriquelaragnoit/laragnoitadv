@@ -6,11 +6,11 @@ import AuxilioAcidente from './pages/AuxilioAcidente';
 
 function App() {
   return (
-    <Router>
+    <Router basename="/laragnoitadv">
       <Navbar />
       <Routes>
         <Route path="/" element={<TrabalhistaReclamante />} />
-        <Route path="/Auxilio-Acidente" element={<AuxilioAcidente />} />
+        <Route path="/auxilio-acidente" element={<AuxilioAcidente />} />
       </Routes>
     </Router>
   );
