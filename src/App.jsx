@@ -1,20 +1,22 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import TrabalhistaReclamante from './pages/TrabalhistaReclamante';
+import Home from './pages/Home';
 import AuxilioAcidente from './pages/AuxilioAcidente';
 import NotFound from './pages/NotFound';
 
 function App() {
   return (
-    <BrowserRouter>
+    <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<TrabalhistaReclamante />} />
+  <Route path="/" element={<Home />} />
+  <Route path="/trabalhista-reclamante" element={<TrabalhistaReclamante />} />
         <Route path="/auxilio-acidente" element={<AuxilioAcidente />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
-    </BrowserRouter>
+    </Router>
   );
 }
 
