@@ -16,11 +16,11 @@ const WhoQualifies = () => (
         </div>
         <div className="card">
           <h3>Para quem atuamos:</h3>
-          <p>Defendemos os direitos de todos os trabalhadores com carteira assinada (regime CLT) que se sentem lesados por seus empregadores.</p>
+          <p>Defendemos os direitos de todos os trabalhadores que se sentem lesados por seus empregadores.</p>
           <ul>
             <li>Trabalhadores urbanos e rurais.</li>
             <li>Profissionais da indústria, comércio e serviços.</li>
-            <li>Empregados que pediram demissão por culpa da empresa.</li>
+            <li>Empregados que não recebem seus direitos.</li>
             <li>Trabalhadores que sofreram acidentes ou doenças do trabalho.</li>
           </ul>
         </div>
