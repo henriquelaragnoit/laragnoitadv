@@ -1,7 +1,7 @@
 import React from 'react';
 import { WhatsAppIcon } from './Icons';
 
-const WHATSAPP_LINK = "https://wa.me/5511943849988?text=Gostaria%20de%20conversar%20com%20um%20advogado%20trabalhista";
+const WHATSAPP_LINK = "http://wa.me/5511943849988/?text=Quero%20saber%20meus%20direitos%20trabalhistas";
 
 const FAQ = () => (
     <section id="faq" aria-labelledby="faq-h2">
