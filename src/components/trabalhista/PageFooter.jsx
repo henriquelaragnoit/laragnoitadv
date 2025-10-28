@@ -3,7 +3,7 @@ import React from 'react';
 const PageFooter = () => (
     <footer role="contentinfo">
         <div className="container">
-            <p><strong>Laragnoit Advogados © TODOS OS DIREITOS RESERVADOS</strong></p>
+            <p><strong>LARAGNOIT Advogados © TODOS OS DIREITOS RESERVADOS</strong></p>
             <p className="muted" style={{ fontSize: '12px', marginTop: '16px' }}>
                 Este site possui caráter informativo, sem promessa de resultado, em conformidade com o Provimento 205/2021 da OAB.
             </p>
